@@ -14,6 +14,9 @@
 		D80ECAE82D1327EA0035F49A /* aoun3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ECAE72D1327EA0035F49A /* aoun3Tests.swift */; };
 		D80ECAF22D1327EA0035F49A /* aoun3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ECAF12D1327EA0035F49A /* aoun3UITests.swift */; };
 		D80ECAF42D1327EA0035F49A /* aoun3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ECAF32D1327EA0035F49A /* aoun3UITestsLaunchTests.swift */; };
+		D80ECB012D13281C0035F49A /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB002D13281C0035F49A /* AddTaskView.swift */; };
+		D80ECB032D1328420035F49A /* TaskFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB022D1328420035F49A /* TaskFile.swift */; };
+		D80ECB062D132ACC0035F49A /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB042D13288D0035F49A /* SpeechRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D80ECAED2D1327EA0035F49A /* aoun3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aoun3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80ECAF12D1327EA0035F49A /* aoun3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoun3UITests.swift; sourceTree = "<group>"; };
 		D80ECAF32D1327EA0035F49A /* aoun3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoun3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D80ECB002D13281C0035F49A /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		D80ECB022D1328420035F49A /* TaskFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFile.swift; sourceTree = "<group>"; };
+		D80ECB042D13288D0035F49A /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				D80ECAD62D1327E90035F49A /* aoun3App.swift */,
 				D80ECAD82D1327E90035F49A /* ContentView.swift */,
+				D80ECB002D13281C0035F49A /* AddTaskView.swift */,
+				D80ECB022D1328420035F49A /* TaskFile.swift */,
+				D80ECB042D13288D0035F49A /* SpeechRecognizer.swift */,
 				D80ECADA2D1327EA0035F49A /* Assets.xcassets */,
 				D80ECADC2D1327EA0035F49A /* Preview Content */,
 			);
@@ -257,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80ECB062D132ACC0035F49A /* SpeechRecognizer.swift in Sources */,
+				D80ECB032D1328420035F49A /* TaskFile.swift in Sources */,
+				D80ECB012D13281C0035F49A /* AddTaskView.swift in Sources */,
 				D80ECAD92D1327E90035F49A /* ContentView.swift in Sources */,
 				D80ECAD72D1327E90035F49A /* aoun3App.swift in Sources */,
 			);
@@ -422,8 +434,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"aoun3/Preview Content\"";
+				DEVELOPMENT_TEAM = HC228J29GC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +466,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"aoun3/Preview Content\"";
+				DEVELOPMENT_TEAM = HC228J29GC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
